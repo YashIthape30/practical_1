@@ -1,0 +1,30 @@
+name: todo_firebase
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  firebase_core: ^3.12.1
+  cloud_firestore: ^5.6.5
+
+flutter:
+  uses-material-design: true
+  assets :
+    - assets/login.png
+    - assets/register.png
+    - assets/bg1.png
+    - assets/bg2.png
+    - assets/bg3.png
+    - assets/bg4.png
+    - assets/clock.png
+
